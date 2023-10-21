@@ -13,7 +13,7 @@ import pdf from "../../assets/Pm_resume.pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/Pm_resume/Portfolio-Webiste/main/src/assets/Pm_resume.pdf";
+  "https://raw.githubusercontent.com/priyanshu-mandloi/Portfolio-web/main/src/assets/Pm_resume.pdf";
 
 function Resume() {
   const [width, setWidth] = useState(1200);

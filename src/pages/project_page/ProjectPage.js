@@ -17,7 +17,6 @@ import Pro9 from "../../images/Pro9.png";
 import React from "react";
 import Zoom from "react-reveal/Zoom";
 import calculator from "../../images/calculator.png";
-import pp from "../../images/portfolio.png";
 
 export default function ProjectPage() {
   return (
@@ -297,7 +296,7 @@ export default function ProjectPage() {
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
-                                      "https://github.com/priyanshu-mandloi/Portfolio-Webiste"
+                                      "https://github.com/priyanshu-mandloi/Portfolio-web"
                                     }
                                     target="_blank"
                                     rel="noreferrer"
