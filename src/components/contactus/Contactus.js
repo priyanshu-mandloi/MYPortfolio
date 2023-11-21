@@ -130,7 +130,7 @@ export default function Contactus() {
                       </p>
                     </a>
                     <a
-                      href={`tel:+880 1603-550521`}
+                      href={`tel:+919301937306`}
                       className="personal-details"
                     >
                       <div className="detailsIcon">
@@ -147,7 +147,7 @@ export default function Contactus() {
                           <HiOutlineLocationMarker />
                         </div>
                         <p style={{ color: "#fbd9ad" }}>
-                          Near Post office Brahmangaon , Madhya Pradesh , India.
+                          Near Ram Mandir Brahmangaon , Madhya Pradesh , India.
                         </p>
                       </div>
                     </a>
