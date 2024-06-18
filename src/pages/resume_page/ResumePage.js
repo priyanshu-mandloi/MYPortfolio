@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 
 import { AiOutlineDownload } from "react-icons/ai";
 import Button from "react-bootstrap/Button";
-import Container from "react-bootstrap/Container";
+import { Container } from "react-bootstrap";
 import Particle from "../../Particle";
 import Zoom from "react-reveal/Zoom";
 
