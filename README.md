@@ -1,7 +1,7 @@
 
 # Priyanshu Mandloi's Portfolio
 
-Welcome to my portfolio! You can access my portfolio website here: [Priyanshu Mandloi Portfolio](https://priyanshu-mandloi.vercel.app/)
+Welcome to my portfolio! You can access my portfolio website here: [Priyanshu Mandloi Portfolio](https://my-portfolio-3hxy4zp25-priyanshu-mandlois-projects.vercel.app/)
 
 ## About
 
