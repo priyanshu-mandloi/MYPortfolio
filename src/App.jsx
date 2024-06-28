@@ -1,31 +1,34 @@
 import "./App.css";
-import React, { useState, useEffect } from "react";
 import "./style.css";
 import "./App.css";
 import "react-vertical-timeline-component/style.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Preloader from "./Preloader";
-import MyNav from "./components/navbar/MyNav";
-import { BrowserRouter as Router } from "react-router-dom";
-import Home from "./pages/home_page/HomePage";
-import Resume from "./pages/resume_page/ResumePage";
-import ProjectPage from "./pages/project_page/ProjectPage";
+
+import React, { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
-import Footer from "./components/footer/Footer";
+
 import About from "./components/aboutme/about/About";
-import Ranking from "./components/aboutme/ranking/Ranking";
+import CertificatePage from "./pages/certificate_page/CertificatePage";
+import ComingSoon from "./pages/comingsoon_page/comingsoon";
 import EducationJourney from "./components/aboutme/journey/EducationJourney";
 import ExperienceJourney from "./components/aboutme/journey/ExperienceJourney";
-import CertificatePage from "./pages/certificate_page/CertificatePage";
-import PersonalSkill from "./components/aboutme/skills/PersonalSkill";
-import TechnicalSkill from "./components/aboutme/skills/TechnicalSkill";
-import ComingSoon from "./pages/comingsoon_page/comingsoon";
+import Footer from "./components/footer/Footer";
+import Home from "./pages/home_page/HomePage";
+import MyNav from "./components/navbar/MyNav";
 import Notfound from "./pages/blogs_page/notfound";
-import TechnicalJourney from "./components/aboutme/journey/TechnicalJourney";
+import PersonalSkill from "./components/aboutme/skills/PersonalSkill";
+import Preloader from "./Preloader";
 import ProjectJourney from "./components/aboutme/journey/ProjectJourney";
+import ProjectPage from "./pages/project_page/ProjectPage";
+import Ranking from "./components/aboutme/ranking/Ranking";
+import Resume from "./pages/resume_page/ResumePage";
+import { BrowserRouter as Router } from "react-router-dom";
 import SocialMedia from "./components/aboutme/social_media/SocialMedia";
-// import Zoom from 'react-reveal/Zoom';
+import TechnicalJourney from "./components/aboutme/journey/TechnicalJourney";
+import TechnicalSkill from "./components/aboutme/skills/TechnicalSkill";
 import Toolkit from "./components/aboutme/skills/Toolkit";
+
+// import Zoom from 'react-reveal/Zoom';
 
 function App() {
   const [load, updateLoad] = useState(true);

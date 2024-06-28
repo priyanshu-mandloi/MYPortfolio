@@ -63,7 +63,7 @@ export default function CertificatePage() {
                                   className="cert-body-title"
                                   style={{ fontWeight: 700, color: "#fbd9ad" }}
                                 >
-                                  Invento participation certificate 
+                                  Invento participation certificate
                                 </h2>
                                 <h3
                                   className="cert-body-subtitle"
@@ -79,7 +79,7 @@ export default function CertificatePage() {
                           </Fade>
                         </Col>
                         <Col md={4}>
-                        <Fade bottom duration={2000} distance="20px">
+                          <Fade bottom duration={2000} distance="20px">
                             <div className="cert-card">
                               <div className="content">
                                 <a
@@ -113,7 +113,7 @@ export default function CertificatePage() {
                                   className="cert-body-title"
                                   style={{ fontWeight: 700, color: "#fbd9ad" }}
                                 >
-                                   Graduation Ceremony Volunteer
+                                  Graduation Ceremony Volunteer
                                 </h2>
                                 <h3
                                   className="cert-body-subtitle"

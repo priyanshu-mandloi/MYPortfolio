@@ -1,11 +1,13 @@
-import { AiFillGithub, AiFillTwitterCircle } from "react-icons/ai";
 import { Col, Container, Row } from "react-bootstrap";
-import { FaFacebookF, FaGoogle, FaLinkedinIn } from "react-icons/fa";
 
 import AboutmeContainer from "../../components/aboutme/aboutmeContainer";
+import { AiFillGithub } from "react-icons/ai";
 import Certification from "../../components/certificate/Certification";
 import Contactus from "../../components/contactus/Contactus";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import Fade from "react-reveal/Fade";
+import { IoIosMail } from "react-icons/io";
 import Particle from "../../Particle";
 import Projects from "../../components/projects/Projects";
 import React from "react";
@@ -24,7 +26,7 @@ export default function Home() {
                 style={{ paddingBottom: 15, fontSize: "175px" }}
                 className="heading"
               >
-                Hi There!{" "}
+                Hola!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
@@ -67,10 +69,10 @@ export default function Home() {
                       rel="noreferrer"
                       className="iconcolour homesocialicons"
                     >
-                      <AiFillTwitterCircle />
+                      <FaXTwitter />
                     </a>
                   </li>
-                  <li className="socialicons">
+                  {/* <li className="socialicons">
                     <a
                       href="https://www.facebook.com/"
                       target="_blank"
@@ -79,7 +81,7 @@ export default function Home() {
                     >
                       <FaFacebookF />
                     </a>
-                  </li>
+                  </li> */}
                   <li className="socialicons">
                     <a
                       href="mailto:priyanshumandloigurukul@gmail.com"
@@ -87,7 +89,7 @@ export default function Home() {
                       rel="noreferrer"
                       className="iconcolour homesocialicons"
                     >
-                      <FaGoogle />
+                      <IoIosMail />
                     </a>
                   </li>
                 </ul>
@@ -97,11 +99,7 @@ export default function Home() {
               <div className="img-home-main">
                 <Tilt>
                   <Fade cascade>
-                    <img
-                      src="./pm1.png"
-                      alt="home pic"
-                      className="img-fluid"
-                    />
+                    <img src="./pm1.png" alt="home pic" className="img-fluid" />
                   </Fade>
                 </Tilt>
               </div>

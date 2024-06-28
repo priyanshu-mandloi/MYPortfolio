@@ -3,15 +3,16 @@ html {
       rgba(17, 16, 16, 0.582),
       rgba(12, 8, 24, 0.904));
 
-  --image-gradient: linear-gradient(to bottom left,
+  /* --image-gradient: linear-gradient(to bottom left,
       rgba(17, 16, 16, 0.678),
-      rgba(12, 10, 22, 0.863));
+      rgba(12, 10, 22, 0.863)); */
+  --image-gradient: linear-gradient(to bottom left, rgba(15, 10, 10, 0.3), rgba(12, 10, 100));
 
-  --imp-text-color: #1f0060;
+  --imp-text-color: #9FDFEB;
 }
 
 .purple {
-  color: #b061df !important;
+  color: #EEE5FF !important;
 }
 
 /* --------- */
@@ -67,6 +68,7 @@ html {
 
 /* --------- */
 /* Navbar Section  */
+/*  Remember blackdrop property is used for the bluring the background in the header.*/
 /* --------- */
 .sticky {
   background-color: #212038d8 !important;
@@ -200,7 +202,7 @@ html {
 }
 
 .navbar-nav .nav-link {
-  color: #fbd9ad !important;
+  color: #FFFFFF !important;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }
@@ -315,7 +317,7 @@ html {
 .home-section {
   position: relative;
   z-index: 2;
-  background-image: var(--image-gradient), url(./images/h3.jpg);
+  background-image: var(--image-gradient), url(./images/backg.avif);
   background-position: top center;
   background-size: cover !important;
   background-repeat: no-repeat;
@@ -325,7 +327,8 @@ html {
 
 .home-content {
   padding: 9rem 0 2rem !important;
-  color: #fbd9ad;
+  /* color: #fbd9ad; */
+  color: #FFAB91;
   text-align: left;
   z-index: 6;
 }
@@ -341,13 +344,13 @@ html {
 }
 
 .main-name {
+  color: #eee5ff;
   /* color: #cb70ff; */
-  color: #cb70ff;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #cb70ff !important;
+  color: #eee5ff !important;
   font-weight: 600 !important;
 }
 
@@ -426,7 +429,7 @@ html {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
-  color: #fbd9ad;
+  color: #FFAB91;
 }
 
 .certificate-section {
@@ -877,7 +880,7 @@ html {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #934cce5e !important;
+  background-color: #f93c0deb !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
@@ -885,8 +888,8 @@ html {
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  background-color: #f93c0deb !important;
+  border-color: #f93c0deb !important;
 }
 
 .fork-btn-inner::after {
@@ -897,18 +900,18 @@ html {
 
 .nav-fill .nav-item .nav-link,
 .nav-justified .nav-item .nav-link.active {
-  color: #a12be6 !important;
-  background-color: #fbd9ad;
-  border-color: #fbd9ad #fbd9ad #fbd9ad;
+  color: #fbd9ad !important;
+  background-color: #292B45;
+  border-color: #292B45 #292B45 #292B45;
   font-size: 17px;
   font-weight: 600;
 }
 
 .nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover {
-  border-color: #fbd9ad #fbd9ad #fbd9ad !important;
+  border-color: #292B45 #292B45 #292B45 !important;
   isolation: isolate !important;
-  color: #fbd9ad !important;
+  color: #292B45 !important;
 }
 
 .nav-link {

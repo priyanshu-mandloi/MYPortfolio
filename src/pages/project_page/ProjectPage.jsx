@@ -17,6 +17,7 @@ import Pro9 from "../../images/Pro9.png";
 import React from "react";
 import Zoom from "react-reveal/Zoom";
 import calculator from "../../images/calculator.png";
+import realestate from "../../images/realestate.jpg";
 
 export default function ProjectPage() {
   return (
@@ -82,9 +83,12 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                The Avlanche Project is a Social Media Website.
-                                it's a testament to the human interaction so that people can 
-                                share their views and can interact with other people. So keep posting and keep enjoying the social media app.
+                                  The Avlanche Project is a Social Media
+                                  Website. it's a testament to the human
+                                  interaction so that people can share their
+                                  views and can interact with other people. So
+                                  keep posting and keep enjoying the social
+                                  media app.
                                 </p>
                               </h6>
                               <div
@@ -100,6 +104,7 @@ export default function ProjectPage() {
                             </div>
                           </Fade>
                         </Col>
+
                         <Col md={3} className="col-sm-12 col-md-4">
                           <Fade bottom>
                             <div
@@ -112,7 +117,70 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                   Study Notion
+                                  Pm Real Estate
+                                </h5>
+                                <img src={realestate} alt={realestate} />
+                                <div className="project--showcaseBtn">
+                                  <a
+                                    href={
+                                      "https://github.com/priyanshu-mandloi/Pm-Real-Estate-ui.git"
+                                    }
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className={"iconBtn"}
+                                    aria-labelledby={`code`}
+                                  >
+                                    <FaCode
+                                      id={`code`}
+                                      className={"icon"}
+                                      aria-label="Code"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                >
+                                  The PM Real Estate is a Real Estate Website.
+                                  Here Multiple user can search the property in
+                                  which they are interested in also user can act
+                                  as a agnet also to post the properties they
+                                  want to sell.
+                                </p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                                React.js, sass, Nodejs , Mongodb and socket.io.
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                  Study Notion
                                 </h5>
                                 <img src={Pro2} alt={Pro2} />
                                 <div className="project--showcaseBtn">
@@ -142,8 +210,10 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                This website was created with React to showcase the seamless synergy
-                                between its components,resulting in an exceptional design experience.
+                                  This website was created with React to
+                                  showcase the seamless synergy between its
+                                  components,resulting in an exceptional design
+                                  experience.
                                 </p>
                               </h6>
                               <div
@@ -201,8 +271,10 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                This website was created with HTML,CSS,Javascript and Nodejs. It is
-                                used to maintain the record of daily task performed by an individual.
+                                  This website was created with
+                                  HTML,CSS,Javascript and Nodejs. It is used to
+                                  maintain the record of daily task performed by
+                                  an individual.
                                 </p>
                               </h6>
                               <div
@@ -213,7 +285,7 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                               CSS, JavaScript, Nodejs , Mongodb
+                                CSS, JavaScript, Nodejs , Mongodb
                               </div>
                             </div>
                           </Fade>
@@ -260,9 +332,10 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  Seamless Chat bot with an amazing features to answer any query.
-                                  It was made by integrating the openai api using the nodejs and it was tested with
-                                  api testing tool like Postman.
+                                  Seamless Chat bot with an amazing features to
+                                  answer any query. It was made by integrating
+                                  the openai api using the nodejs and it was
+                                  tested with api testing tool like Postman.
                                 </p>
                               </h6>
                               <div
@@ -273,7 +346,7 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                 React, Vite, Material UI, Axios package 
+                                React, Vite, Material UI, Axios package
                               </div>
                             </div>
                           </Fade>
@@ -381,8 +454,8 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  This website is made using HTML,CSS,Javascript and Frontend
-                                  Framework like Tailwind.
+                                  This website is made using HTML,CSS,Javascript
+                                  and Frontend Framework like Tailwind.
                                 </p>
                               </h6>
                               <div
@@ -410,7 +483,7 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                    Huffman Coding Algorithm
+                                  Huffman Coding Algorithm
                                 </h5>
                                 <img src={Pro10} alt={Pro10} />
                                 <div className="project--showcaseBtn">
@@ -440,7 +513,9 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                 This is an Huffman Coding Algorithm coded using C++ language. This algo has a wide range of application.
+                                  This is an Huffman Coding Algorithm coded
+                                  using C++ language. This algo has a wide range
+                                  of application.
                                 </p>
                               </h6>
                               <div
@@ -468,7 +543,7 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                 Contact List
+                                  Contact List
                                 </h5>
                                 <img src={Pro6} alt={Pro6} />
                                 <div className="project--showcaseBtn">
@@ -498,9 +573,13 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  The Contact List project is a versatile web application built with HTML, CSS, JavaScript , Mongodb and nodejs. It seamlessly 
-                                  add the persons name into the list. Users can effortlessly manage 
-                                  their contacts in a visually appealing and user-friendly interface.
+                                  The Contact List project is a versatile web
+                                  application built with HTML, CSS, JavaScript ,
+                                  Mongodb and nodejs. It seamlessly add the
+                                  persons name into the list. Users can
+                                  effortlessly manage their contacts in a
+                                  visually appealing and user-friendly
+                                  interface.
                                 </p>
                               </h6>
                               <div
@@ -558,8 +637,11 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  The Calculator project is a web application created with HTML, CSS, and JavaScript. It helps to perform the basic mathematical operation. The user-friendly interface 
-                                  and responsive design ensure seamless use.
+                                  The Calculator project is a web application
+                                  created with HTML, CSS, and JavaScript. It
+                                  helps to perform the basic mathematical
+                                  operation. The user-friendly interface and
+                                  responsive design ensure seamless use.
                                 </p>
                               </h6>
                               <div
@@ -587,7 +669,7 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                   Counter
+                                  Counter
                                 </h5>
                                 <img src={Pro7} alt={Pro7} />
                                 <div className="project--showcaseBtn">
@@ -617,8 +699,11 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  Create a sleek, responsive counter with HTML, CSS, and JavaScript. Display the counter value in five digit, 
-                                  and update automatically. Customize its style and layout using CSS for a modern.
+                                  Create a sleek, responsive counter with HTML,
+                                  CSS, and JavaScript. Display the counter value
+                                  in five digit, and update automatically.
+                                  Customize its style and layout using CSS for a
+                                  modern.
                                 </p>
                               </h6>
                               <div
@@ -676,8 +761,9 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  Create an  Ping Pong game using HTML, CSS, and JavaScript.
-                                   Allow user to play the ping pong game.
+                                  Create an Ping Pong game using HTML, CSS, and
+                                  JavaScript. Allow user to play the ping pong
+                                  game.
                                 </p>
                               </h6>
                               <div
@@ -705,7 +791,7 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                   Portfolio
+                                  Portfolio
                                 </h5>
                                 <img src={Pro9} alt={Pro9} />
                                 <div className="project--showcaseBtn">
@@ -735,7 +821,8 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                 This is my portfolio website made using the HTML , CSS , Javascript and Bootstrap.
+                                  This is my portfolio website made using the
+                                  HTML , CSS , Javascript and Bootstrap.
                                 </p>
                               </h6>
                               <div

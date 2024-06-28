@@ -4,6 +4,7 @@ import Fade from "react-reveal/Fade";
 import React from "react";
 import { Row } from "react-bootstrap";
 import Slide from "react-reveal/Slide";
+
 const About = () => {
   return (
     <div>
@@ -28,36 +29,38 @@ const About = () => {
           <Col md={7}>
             <Fade duration={3000}>
               <p className="home-about-body">
-                My name is <b className="purple">Priyanshu Mandloi </b> 
-                  and I am a <b className="purple"> Information Technology </b> 
-                    student at <b className="purple">Institute of Engineering & Technology </b>
-                      in Indore, India.
+                My name is <b className="purple">Priyanshu Mandloi </b>
+                and I am a <b className="purple"> Information Technology </b>
+                student at{" "}
+                <b className="purple">
+                  Institute of Engineering & Technology DAVV{" "}
+                </b>
+                in Indore, India.
                 <br />
+                <br />I am proficient in various programming languages such as
+                &nbsp;
+                <b className="purple"> C++ , HTML , CSS , JavaScript. </b>
                 <br />
-                        I am proficient in various programming languages such as &nbsp;
-                  <b className="purple">
-                    {" "}
-                     C++, Java , HTML , CSS , JavaScript.{" "}
-                  </b>
-                <br />
-                <br />
-                I also have experience working with frameworks and libraries such as &nbsp;
-
-                  <b className="purple">
-                    {" "}
-                    NodeJS, ReactJS, Bootstrap and Tailwind CSS.{" "}
-                  </b>
+                <br />I also have experience working with frameworks and
+                libraries such as &nbsp;
+                <b className="purple">
+                  {" "}
+                  NodeJS, ReactJS, Bootstrap , EJS , Express.js.{" "}
+                </b>
                 <br />
                 <br />
                 Whenever possible, I also apply my passion for developing
                 products with &nbsp;
-                  <b className="purple">
-                    {" "}
-                    Modern Javascript Library and Frameworks.
-                  </b>
+                <b className="purple">
+                  {" "}
+                  Modern Javascript Library and Frameworks.
+                </b>
                 <br />
-                <br />In my free time, I enjoy learning new technologies and &nbsp;
-                  <b className="purple">building new web technologies and products. </b>
+                <br />
+                In my free time, I enjoy learning new technologies and &nbsp;
+                <b className="purple">
+                  building new web technologies and products.{" "}
+                </b>
               </p>
             </Fade>
           </Col>

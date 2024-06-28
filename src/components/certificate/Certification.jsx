@@ -5,6 +5,7 @@ import { HiArrowRight } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import React from "react";
 import Zoom from "react-reveal/Zoom";
+import dashboard from "../../images/dashboard.jpg";
 import guard from "../../images/graud.jpg";
 import invento from "../../images/invento.png";
 
@@ -28,17 +29,64 @@ export default function Certification() {
                   <Fade bottom duration={2000} distance="20px">
                     <div className="cert-card">
                       <div className="content">
-                        <a
-                          href=" "
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
+                        <a href=" " target="_blank" rel="noopener noreferrer">
                           <div className="content-overlay"></div>
                           <div
                             className="cert-header"
                             style={{ backgroundColor: "white" }}
                           >
-                            {<img className="logo_img" src={invento} alt={invento} />}
+                            {
+                              <img
+                                className="logo_img"
+                                src={dashboard}
+                                alt={dashboard}
+                              />
+                            }
+                          </div>
+                          <div className="content-details fadeIn-top">
+                            <h3
+                              className="content-title"
+                              style={{ color: "black" }}
+                            >
+                              Certificate
+                            </h3>
+                          </div>
+                        </a>
+                      </div>
+                      <div className="cert-body">
+                        <h2
+                          className="cert-body-title"
+                          style={{ fontWeight: 700, color: "#fbd9ad" }}
+                        >
+                          Exam Section Dashboard
+                        </h2>
+                        <h3
+                          className="cert-body-subtitle"
+                          style={{ color: "#eb90ff", marginBottom: "0px" }}
+                        >
+                          - IET DAVV
+                        </h3>
+                      </div>
+                    </div>
+                  </Fade>
+                </Col>
+                <Col md={4}>
+                  <Fade bottom duration={2000} distance="20px">
+                    <div className="cert-card">
+                      <div className="content">
+                        <a href=" " target="_blank" rel="noopener noreferrer">
+                          <div className="content-overlay"></div>
+                          <div
+                            className="cert-header"
+                            style={{ backgroundColor: "white" }}
+                          >
+                            {
+                              <img
+                                className="logo_img"
+                                src={invento}
+                                alt={invento}
+                              />
+                            }
                           </div>
                           <div className="content-details fadeIn-top">
                             <h3
@@ -71,17 +119,19 @@ export default function Certification() {
                   <Fade bottom duration={2000} distance="20px">
                     <div className="cert-card">
                       <div className="content">
-                        <a
-                          href=" "
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
+                        <a href=" " target="_blank" rel="noopener noreferrer">
                           <div className="content-overlay"></div>
                           <div
                             className="cert-header"
                             style={{ backgroundColor: "white" }}
                           >
-                            {<img className="logo_img" src={guard} alt={guard} />}
+                            {
+                              <img
+                                className="logo_img"
+                                src={guard}
+                                alt={guard}
+                              />
+                            }
                           </div>
                           <div className="content-details fadeIn-top">
                             <h3
@@ -98,7 +148,7 @@ export default function Certification() {
                           className="cert-body-title"
                           style={{ fontWeight: 700, color: "#fbd9ad" }}
                         >
-                             Graduation Ceremony
+                          Graduation Ceremony
                         </h2>
                         <h3
                           className="cert-body-subtitle"
