@@ -35,7 +35,7 @@ export default function Contactus() {
     } catch (error) {
       console.error("Error submitting the form:", error);
 
-      alert("Backend Server was not Running while submitting the form.");
+      alert("Server was not Running while submitting the form.");
     }
 
     setFormData({});

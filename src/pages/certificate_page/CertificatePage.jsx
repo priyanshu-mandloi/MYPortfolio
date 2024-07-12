@@ -4,6 +4,7 @@ import { Fade } from "react-reveal";
 import Particle from "../../Particle";
 import React from "react";
 import Zoom from "react-reveal/Zoom";
+import dashboard from "../../images/dashboard.jpg";
 import graud from "../../images/graud.jpg";
 import invento from "../../images/invento.png";
 
@@ -78,6 +79,57 @@ export default function CertificatePage() {
                             </div>
                           </Fade>
                         </Col>
+                        <Col md={4}>
+                          <Fade bottom duration={2000} distance="20px">
+                            <div className="cert-card">
+                              <div className="content">
+                                <a
+                                  href=" "
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  <div className="content-overlay"></div>
+                                  <div
+                                    className="cert-header"
+                                    style={{ backgroundColor: "white" }}
+                                  >
+                                    <img
+                                      className="logo_img"
+                                      src={dashboard}
+                                      alt="dashboard"
+                                    />
+                                  </div>
+                                  <div className="content-details fadeIn-top">
+                                    <h3
+                                      className="content-title"
+                                      style={{ color: "black" }}
+                                    >
+                                      Certificate
+                                    </h3>
+                                  </div>
+                                </a>
+                              </div>
+                              <div className="cert-body">
+                                <h2
+                                  className="cert-body-title"
+                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                >
+                                  Exam Department Iet Davv
+                                </h2>
+                                <h3
+                                  className="cert-body-subtitle"
+                                  style={{
+                                    color: "#eb90ff",
+                                    marginBottom: "0px",
+                                  }}
+                                >
+                                  - IET DAVV
+                                </h3>
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+
                         <Col md={4}>
                           <Fade bottom duration={2000} distance="20px">
                             <div className="cert-card">

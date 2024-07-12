@@ -4,8 +4,7 @@ import Fade from "react-reveal/Fade";
 import React from "react";
 import dashboard from "../../images/dashboard.jpg";
 import graud from "../../images/graud.jpg";
-
-// import invento from "../../images/invento.png";
+import invento from "../../images/invento.png";
 
 export default function Certificate() {
   return (
@@ -21,13 +20,13 @@ export default function Certificate() {
                 style={{ width: "100%", height: "100%" }}
               />
             </Col>
-            {/* <Col md={4}>
+            <Col md={4}>
               <img
                 src={invento}
                 alt=""
                 style={{ width: "100%", height: "100%" }}
               />
-            </Col> */}
+            </Col>
             <Col md={4}>
               <img
                 src={graud}

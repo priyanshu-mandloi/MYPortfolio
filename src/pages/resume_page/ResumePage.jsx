@@ -9,10 +9,11 @@ import { Container } from "react-bootstrap";
 import Particle from "../../Particle";
 import Zoom from "react-reveal/Zoom";
 
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+// pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 // Use the Google Drive Viewer link
-const googleDriveViewerLink = "https://drive.google.com/file/d/1pEepRb9ZaNMR9I2PO8UXpBBWly0uukpZ/view?usp=sharing";
+const googleDriveViewerLink =
+  "https://drive.google.com/file/d/1pEepRb9ZaNMR9I2PO8UXpBBWly0uukpZ/view?usp=sharing";
 
 function Resume() {
   const [width, setWidth] = useState(1200);
@@ -37,7 +38,11 @@ function Resume() {
             </div>
             <Container fluid className="certificate-section" id="about">
               <div className="d-flex justify-content-center mt-4">
-                <Button variant="primary" href={googleDriveViewerLink} target="_blank">
+                <Button
+                  variant="primary"
+                  href={googleDriveViewerLink}
+                  target="_blank"
+                >
                   <AiOutlineDownload />
                   &nbsp;Download Resume
                 </Button>
@@ -52,7 +57,11 @@ function Resume() {
                 ></iframe>
               </div>
               <div className="d-flex justify-content-center">
-                <Button variant="primary" href={googleDriveViewerLink} target="_blank">
+                <Button
+                  variant="primary"
+                  href={googleDriveViewerLink}
+                  target="_blank"
+                >
                   <AiOutlineDownload />
                   &nbsp;Download Resume
                 </Button>
