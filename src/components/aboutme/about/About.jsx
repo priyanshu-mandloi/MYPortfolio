@@ -16,7 +16,8 @@ const About = () => {
 
             <Slide left>
               <lottie-player
-                src="https://assets5.lottiefiles.com/packages/lf20_iv4dsx3q.json"
+                // src="https://assets5.lottiefiles.com/packages/lf20_iv4dsx3q.json"
+                src="https://assets1.lottiefiles.com/packages/lf20_myejiggj.json"
                 background="transparent"
                 speed="1"
                 style={{ width: "100%", height: "90%" }}
