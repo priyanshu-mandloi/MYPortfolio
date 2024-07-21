@@ -26,7 +26,7 @@ export default function SocialMedia() {
               className="icon-colour  home-social-icons"
             >
               <Zoom cascade>
-                < AiFillTwitterSquare/>
+                <AiFillTwitterSquare />
               </Zoom>
             </a>
           </Col>

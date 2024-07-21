@@ -52,7 +52,8 @@ export default function MyNav() {
             </h5>
           </div>
         </Navbar.Brand>
-        {/* We are using the update response for the closing of the 3 lines when it is marked as false. */}
+        {/* 
+        We are using the update response for the closing of the 3 lines when it is marked as false. */}
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -63,6 +64,7 @@ export default function MyNav() {
           <span></span>
           <span></span>
         </Navbar.Toggle>
+
         <Navbar.Collapse id="responsive-navbar-nav" className="navbarmain">
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
@@ -70,7 +72,6 @@ export default function MyNav() {
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
-
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -83,7 +84,6 @@ export default function MyNav() {
                 Projects
               </Nav.Link>
             </Nav.Item>
-
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -93,7 +93,6 @@ export default function MyNav() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
-
             <Nav.Item>
               <Nav.Link
                 as={Link}

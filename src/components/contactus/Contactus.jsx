@@ -30,14 +30,11 @@ export default function Contactus() {
         formData
       );
       console.log(response.data.message); // Log the response from the backend
-
       alert(`Thanks ${formData.name}, I will shortly connect with you!`);
     } catch (error) {
       console.error("Error submitting the form:", error);
-
       alert("Server was not Running while submitting the form.");
     }
-
     setFormData({});
   };
 

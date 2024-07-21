@@ -37,7 +37,7 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                       Avalanche
+                      Avalanche
                     </h5>
                     <img src={Pro1} alt={Pro1} />
                     <div className="project--showcaseBtn">
@@ -67,9 +67,10 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      The Avalanche Project is a Social Media Website.
-                       it's a testament to the human interaction so that people can 
-                      share their views and can interact with other people. So keep posting and keep enjoying the social media app.
+                      The Avalanche Project is a Social Media Website. it's a
+                      testament to the human interaction so that people can
+                      share their views and can interact with other people. So
+                      keep posting and keep enjoying the social media app.
                     </p>
                   </h6>
                   <div
@@ -97,7 +98,7 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                       Study Notion
+                      Study Notion
                     </h5>
                     <img src={Pro2} alt={Pro2} />
                     <div className="project--showcaseBtn">
@@ -127,8 +128,9 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      This website was created with React to showcase the seamless synergy
-                      between its components,resulting in an exceptional design experience.
+                      This website was created with React to showcase the
+                      seamless synergy between its components,resulting in an
+                      exceptional design experience.
                     </p>
                   </h6>
                   <div
@@ -161,9 +163,7 @@ export default function Projects() {
                     <img src={Pro3} alt={Pro3} />
                     <div className="project--showcaseBtn">
                       <a
-                        href={
-                          "https://github.com/priyanshu-mandloi/Todo"
-                        }
+                        href={"https://github.com/priyanshu-mandloi/Todo"}
                         target="_blank"
                         rel="noreferrer"
                         className={"iconBtn"}
@@ -186,8 +186,9 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                    This website was created with HTML,CSS,Javascript and Nodejs. It is
-                    used to maintain the record of daily task performed by an individual.
+                      This website was created with HTML,CSS,Javascript and
+                      Nodejs. It is used to maintain the record of daily task
+                      performed by an individual.
                     </p>
                   </h6>
                   <div
