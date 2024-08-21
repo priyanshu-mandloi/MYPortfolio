@@ -54,9 +54,11 @@ src/
 │   └── particles.js
 └── App.js
 ## Installation and Usage
+```
 
 ### Clone the repository:
 ```bash
-git clone [https://github.com/your-username/your-portfolio-website.git](https://github.com/priyanshu-mandloi/MYPortfolio.git)
+git clone https://github.com/priyanshu-mandloi/MYPortfolio.git
+```
 Conclusion
-This React-based portfolio website provides a solid foundation for showcasing your skills, experience, and projects. By leveraging various React libraries and components, you can create a visually appealing and interactive website that represents your professional identity.
+This React-based portfolio website provides a solid foundation for showcasing mh skills, experience, and projects. By leveraging various React libraries and components, I have created a visually appealing and interactive website that represents my professional identity.
